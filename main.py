@@ -19,7 +19,7 @@ for trie in range(6):
     fail=True
     inp=""
     while fail:
-        inp=input("Enter a 5 letter word below:\n\t")
+        inp=input("Enter a 5 letter word below:\n\t").lower()
         if len(inp) != 5 or not inp.isalpha():
             print("Words must all be 5 letters, and not use any other symbols!")
             continue

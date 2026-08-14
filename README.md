@@ -16,7 +16,7 @@ Most notably, the correct answer is not chosen at the start of the day. Instead,
 At the start of any given game, any possible five-letter word could still be the correct answer.
 Each turn, the feedback given is selected such that the player is given the least information possible.
 
-This will narrow down the number of possible words remaining.
+Murdle is consistent, so any feedback that you have been given will narrow down the number of possible words remaining.
 In Murdle, the goal is not to guess the single correct word per se, but instead to narrow the pool of possible words to include only one word.
 If you can do so and then guess that single word within your given 6 turns, you win.
 
